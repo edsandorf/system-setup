@@ -8,3 +8,12 @@
 # Author:
 #   Erlend Dancke Sandorf <edsandorf [:at:] gmail.com>
 #
+
+cd ~
+git clone https://github.com/edsandorf/.dotfiles.git
+cd ~/.dotfiles
+
+# Fish shell config
+ln -s .config.fish ~/.config/fish/config.fish
+
+# Makevars
