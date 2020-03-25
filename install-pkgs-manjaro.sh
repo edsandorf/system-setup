@@ -8,10 +8,12 @@
 #
 # Usage:
 #   Install and use yay: sudo pacman -Syu yay
+#   Make sure that Java 8 is available: 'sudo archlinux-java set java-8-openjdk'
 #
 # Sources:
 #   https://pat-s.me/post/arch-install-guide-for-r/
 
+# Utility packages
 yay -Su fish neofetch chromium ranger zotero atom insync dropbox\
 conky git-lfs gitg pdftk qpdf tldr
 
@@ -26,7 +28,7 @@ yay -Su gdal udunits postgis jdk-openjdk openjdk-src
 yay -Su texlive-core texstudio pandoc pandoc-citeproc pandoc-crossref
 
 # R
-yay -Su libopenblas r rstudio radian
+yay -Su libopenblas r rstudio-desktop-bin radian
 
 # Julia
 yay -Su julia
