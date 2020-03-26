@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 # Description:
-#   Changes some global settings for the system 
+#   Changes some global settings for the system
 #
 # Author:
 #   Erlend Dancke Sandorf <edsandorf [:at:] gmail.com>
@@ -11,3 +11,10 @@
 
 # Change the shell to fish shell
 sudo chsh -s `which fish`
+
+# Enable trim for optimizing SSD performance
+sudo systemctl enable fstrim.timer
+
+# Change the swappiness of the system
+sudo echo "vm.swappiness=10" > /etc/sysctl.d/100-manjaro.conf
+sudo sysctl --system
