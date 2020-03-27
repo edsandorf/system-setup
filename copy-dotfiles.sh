@@ -42,4 +42,5 @@ rm ~/.config/texstudio/texstudio.ini
 ln -s texstudio.ini ~/.config/texstudio/texstudio.ini
 
 # Move the mimeapps.list
-sudo ln -s mimeapps.list /usr/share/applications/mimeapps.list
+rm ~/.config/mimeapps.list
+sudo ln -s mimeapps.list ~/.config/mimeapps.list
