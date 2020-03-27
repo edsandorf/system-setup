@@ -36,5 +36,8 @@ pkgs <- c(
 # Install packages ----
 invisible(lapply(pkgs, install.packages, character.only = TRUE))
 
-# Call out the warnings
+# Call out the warnings (if any)
 warnings()
+
+# Install the Jupyter kernel for current user only
+IRkernel::installspec()
