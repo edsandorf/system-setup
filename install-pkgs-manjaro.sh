@@ -14,11 +14,11 @@
 #   https://pat-s.me/post/arch-install-guide-for-r/
 
 # Utility packages
-yay -Su fish neofetch chromium ranger zotero atom insync dropbox\
-conky git-lfs gitg pdftk qpdf tldr ccache jdk
+yay -Su fish neofetch chromium ranger zotero atom insync dropbox \
+conky git-lfs gitg pdftk qpdf tldr ccache jdk jupyter
 
 # Python packages
-yay -Su python-gdal python-yaml python-jinja python-psycopg2 python-owslib\
+yay -Su python-gdal python-yaml python-jinja python-psycopg2 python-owslib \
 python-numpy python-pygments
 
 # Important libraries for spatial applications
