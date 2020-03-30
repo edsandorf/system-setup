@@ -18,17 +18,17 @@ rm -drf ~/Desktop ~/Documents ~/Downloads ~/Music ~/Pictures ~/Public ~/Template
 mkdir ~/downloads ~/public ~/software
 
 # Create symlinks from Google Drive (from default installation)
-ln -s ~/Insync/edsandorf@gmail.com/Google\ Drive/desktop ~/desktop
-ln -s ~/Insync/edsandorf@gmail.com/Google\ Drive/documents ~/documents
-ln -s ~/Insync/edsandorf@gmail.com/Google\ Drive/music ~/music
-ln -s ~/Insync/edsandorf@gmail.com/Google\ Drive/pictures ~/pictures
-ln -s ~/Insync/edsandorf@gmail.com/Google\ Drive/software ~/software
-ln -s ~/Insync/edsandorf@gmail.com/Google\ Drive/templates ~/templates
-ln -s ~/Insync/edsandorf@gmail.com/Google\ Drive/videos ~/videos
+ln -nfs ~/Insync/edsandorf@gmail.com/Google\ Drive/desktop ~/desktop
+ln -nfs ~/Insync/edsandorf@gmail.com/Google\ Drive/documents ~/documents
+ln -nfs ~/Insync/edsandorf@gmail.com/Google\ Drive/music ~/music
+ln -nfs ~/Insync/edsandorf@gmail.com/Google\ Drive/pictures ~/pictures
+ln -nfs ~/Insync/edsandorf@gmail.com/Google\ Drive/software ~/software
+ln -nfs ~/Insync/edsandorf@gmail.com/Google\ Drive/templates ~/templates
+ln -nfs ~/Insync/edsandorf@gmail.com/Google\ Drive/videos ~/videos
 
 # Put all shared folders from all services inside ~/Public
-ln -s ~/Insync/edsandorf@gmail.com/Google\ Drive/public/* ~/public
-ln -s ~/Dropbox/public/* ~/public
+ln -nfs ~/Insync/edsandorf@gmail.com/Google\ Drive/public/* ~/public
+ln -nfs ~/Dropbox/public/* ~/public
 
 # Update the default XDG user directories
 xdg-user-dirs-update --set DESKTOP ~/desktop

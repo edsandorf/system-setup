@@ -24,23 +24,23 @@ ln -s .bashrc ~/.bashrc
 
 # Config atom
 rm ~/.atom/config.cson
-ln -s config.cson ~/.atom/config.cson
+ln -nfs config.cson ~/.atom/config.cson
 
 # Fish shell config
-ln -s .config.fish ~/.config/fish/config.fish
+ln -nfs .config.fish ~/.config/fish/config.fish
 
 # ccache
 mkdir ~/.ccache
-ln -s ccache.conf ~/.ccache/ccache.conf
+ln -nfs ccache.conf ~/.ccache/ccache.conf
 
 # Makevars
 mkdir ~/.R
-ln -s Makevars ~/.R/Makevars
+ln -nfs Makevars ~/.R/Makevars
 
 # TeXStudio
 rm ~/.config/texstudio/texstudio.ini
-ln -s texstudio.ini ~/.config/texstudio/texstudio.ini
+ln -nfs texstudio.ini ~/.config/texstudio/texstudio.ini
 
 # Move the mimeapps.list
 rm ~/.config/mimeapps.list
-sudo ln -s mimeapps.list ~/.config/mimeapps.list
+sudo ln -nfs mimeapps.list ~/.config/mimeapps.list
