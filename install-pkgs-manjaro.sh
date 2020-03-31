@@ -16,7 +16,10 @@
 # Utility packages
 yay -Syu fish neofetch chromium ranger zotero atom insync dropbox \
 conky git-lfs gitg pdftk qpdf tldr ccache jdk jupyter downgrade \
-ranger firewalld xclip
+ranger xclip
+
+# Security and VPN
+yay -Syu firewalld wireguard
 
 # Python packages
 yay -Syu python-gdal python-yaml python-jinja python-psycopg2 python-owslib \
