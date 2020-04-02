@@ -32,7 +32,7 @@ yay -Syu gdal udunits postgis jdk-openjdk openjdk-src
 yay -Syu texlive-core texstudio pandoc pandoc-citeproc pandoc-crossref
 
 # R
-yay -Syu libopenblas r rstudio-desktop-bin radian
+yay -Syu libopenblas r rstudio-desktop-bin rstudio-server radian
 
 # Julia
 yay -Syu julia
@@ -41,6 +41,6 @@ yay -Syu julia
 yay -Syu jq gcc-fortran tk nlopt gsl v8-3.14
 
 # Other Packages
-yay -Syu spotify audacity blender gimp deluge obs-studio virtualbox
+yay -Syu spotify audacity blender gimp deluge obs-studio virtualbox skype
 
 sudo pacman -R firefox kate
