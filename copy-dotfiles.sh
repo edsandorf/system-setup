@@ -47,4 +47,7 @@ ln -nfs ~/.dotfiles/texstudio.ini ~/.config/texstudio/texstudio.ini
 
 # Move the mimeapps.list
 rm ~/.config/mimeapps.list
-sudo ln -nfs ~/.dotfiles/mimeapps.list ~/.config/mimeapps.list
+ln -nfs ~/.dotfiles/mimeapps.list ~/.config/mimeapps.list
+
+# The intel configuration file
+#sudo ln -nfs ~/.dotfiles/99-intel.conf /etc/X11/xorg.conf.d/99-intel.conf
