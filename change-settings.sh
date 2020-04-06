@@ -18,3 +18,6 @@ sudo systemctl enable fstrim.timer
 # Change the swappiness of the system
 sudo echo "vm.swappiness=10" > /etc/sysctl.d/100-manjaro.conf
 sudo sysctl --system
+
+# Add to passwd file to avoid always being asked login prompt for gnome-keyring
+echo "password  optional  pam_gnome_keyring.so" | sudo tee -a /etc/pam.d/passwd
