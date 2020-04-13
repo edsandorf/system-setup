@@ -13,6 +13,8 @@
 # Sources:
 #   https://pat-s.me/post/arch-install-guide-for-r/
 
+sudo pacman -Syu --needed base-devel yay
+
 # Utility packages
 yay -Syu fish neofetch chromium ranger zotero atom insync dropbox \
 conky git-lfs gitg pdftk qpdf tldr ccache jdk jupyter downgrade \
