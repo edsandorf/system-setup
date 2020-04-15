@@ -43,6 +43,6 @@ yay -Syu julia
 yay -Syu jq gcc-fortran tk nlopt gsl v8-3.14
 
 # Other Packages
-yay -Syu spotify audacity blender gimp deluge obs-studio virtualbox skype
+yay -Syu spotify audacity blender gimp deluge obs-studio virtualbox teams
 
 sudo pacman -R firefox-gnome-theme-maia firefox empathy evolution gufw gnome-maps hexchat
