@@ -14,11 +14,9 @@ git clone https://github.com/edsandorf/.dotfiles.git
 cd ~/.dotfiles
 
 # git
-rm ~/.gitconfig
 ln -nfs ~/.dotfiles/.gitconfig ~/.gitconfig
 
 # Conky
-rm ~/.conkyrc
 ln -nfs ~/.dotfiles/.conkyrc ~/.conkyrc
 
 # .bashrc (not really necessary now that I am using fish)
@@ -30,7 +28,6 @@ rm ~/.atom/config.cson
 ln -nfs ~/.dotfiles/config.cson ~/.atom/config.cson
 
 # Fish shell config
-rm ~/.config/fish/config.fish
 ln -nfs ~/.dotfiles/.config.fish ~/.config/fish/config.fish
 
 # ccache
