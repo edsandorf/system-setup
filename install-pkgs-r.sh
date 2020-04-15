@@ -8,6 +8,10 @@
 #   Erlend Dancke Sandorf <edsandorf [:at:] gmail.com>
 #
 
+# Set up a personal library
+R -e "dir.create(Sys.getenv('R_LIBS_USER'), recursive = TRUE);
+      .libPaths(Sys.getenv('R_LIBS_USER'))"
+
 # Execute the following R command
 R -e "install.packages(
   c(
