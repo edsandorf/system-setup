@@ -28,7 +28,7 @@ rm ~/.atom/config.cson
 ln -nfs ~/.dotfiles/config.cson ~/.atom/config.cson
 
 # Fish shell config
-ln -nfs ~/.dotfiles/.config.fish ~/.config/fish/config.fish
+ln -nfs ~/.dotfiles/config.fish ~/.config/fish/config.fish
 
 # ccache
 mkdir ~/.ccache
