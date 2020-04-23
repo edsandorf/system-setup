@@ -18,7 +18,7 @@ sudo pacman -Syu --needed base-devel yay
 # Utility packages
 yay -Syu fish neofetch chromium ranger zotero atom insync dropbox \
 conky git-lfs gitg pdftk qpdf tldr ccache jdk jupyter downgrade \
-ranger xclip seahorse
+ranger xclip seahorse polybar
 
 # Security and VPN
 yay -Syu firewalld wireguard
@@ -43,6 +43,6 @@ yay -Syu julia
 yay -Syu jq gcc-fortran tk nlopt gsl v8-3.14
 
 # Other Packages
-yay -Syu spotify audacity blender gimp deluge obs-studio virtualbox teams
+yay -Syu spotify audacity blender gimp deluge obs-studio virtualbox teams zoom
 
 sudo pacman -R firefox-gnome-theme-maia firefox empathy evolution gufw gnome-maps hexchat
