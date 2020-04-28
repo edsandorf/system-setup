@@ -18,7 +18,7 @@ R -e "dir.create(Sys.getenv('R_LIBS_USER'), recursive = TRUE);
           'devtools', 'rsconnect', 'roxygen2', 'testthat', 'feather',
           'shiny', 'DT', 'shinyjs', 'shinyWidgets', 'janitor',
           'knitr', 'komadown', 'bookdown', 'patchwork', 'pool', 'config',
-          'kableExtra',
+          'kableExtra', 'patchwork',
           'aws.s3', 'RMariaDB', 'data.table',
           'maxLik', 'trustOptim', 'nloptr', 'numDeriv', 'ucminf',
           'Rfast', 'matrixStats',
