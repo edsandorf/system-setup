@@ -31,7 +31,7 @@ python-numpy python-pygments
 yay -Syu gdal udunits postgis jdk-openjdk openjdk-src
 
 # Texlive and pandoc
-yay -Syu texlive-core texlive-latexextra texstudio pandoc pandoc-citeproc pandoc-crossref
+yay -Syu texlive-core texlive-latexextra texlive-science texlive-pstricks texlive-publishers texlive-fontsextra texstudio pandoc pandoc-citeproc pandoc-crossref
 
 # R
 yay -Syu libopenblas r rstudio-desktop-bin rstudio-server radian
