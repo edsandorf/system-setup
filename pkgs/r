@@ -8,4 +8,6 @@ r-cran-xml2
 libssl-dev
 libxml2-dev
 libcurl4-openssl-dev
-libgsl-dev
+libgsl0-dev
+libudunits2-dev
+libmariadbclient-dev
