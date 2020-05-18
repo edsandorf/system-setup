@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Conky_Startup
+Exec=~/tmp/system-setup/conky-startup.sh
+X-GNOME-Autostart-enabled=true
+Comment=Launch the conky startup script
