@@ -16,7 +16,7 @@ R -e "dir.create(Sys.getenv('R_LIBS_USER'), recursive = TRUE);
           'tidyverse', 'lobstr', 'pryr', 'rlang', 'progress', 'R6',
           'dtplyr', 'dbplyr', 'crayon', 'bench', 'haven', 'lintr',
           'devtools', 'rsconnect', 'roxygen2', 'testthat', 'feather',
-          'shiny', 'DT', 'shinyjs', 'shinyWidgets', 'janitor',
+          'shiny', 'DT', 'shinyjs', 'shinyWidgets', 'janitor', 'broom',
           'knitr', 'komadown', 'bookdown', 'patchwork', 'pool', 'config',
           'kableExtra', 'patchwork',
           'aws.s3', 'RMariaDB', 'data.table',
@@ -25,7 +25,9 @@ R -e "dir.create(Sys.getenv('R_LIBS_USER'), recursive = TRUE);
           'apollo', 'gmnl', 'mlogit',
           'randtoolbox', 'cartography', 'sf', 'AER', 'car', 'psych',
           'xtable', 'microbenchmark', 'swirl', 'cli',
-          'IRkernel', 'languageserver'
+          'IRkernel', 'languageserver',
+          'doParallel', 'foreach',
+          'msm'
         ),
         repos = 'http://cran.rstudio.com'
       );
