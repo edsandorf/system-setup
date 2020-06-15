@@ -18,7 +18,8 @@ sudo pacman -Syu --needed base-devel yay
 # Utility packages
 yay -Syu fish neofetch chromium ranger zotero atom insync dropbox \
 conky git-lfs gitg pdftk qpdf tldr ccache jdk jupyter downgrade \
-ranger xclip seahorse polybar alsa-tools latte-dock
+ranger xclip seahorse polybar alsa-tools latte-dock pavucontrol \
+sof-firmware
 
 # Security and VPN
 yay -Syu firewalld wireguard
@@ -31,7 +32,8 @@ python-numpy python-pygments
 yay -Syu gdal udunits postgis jdk-openjdk openjdk-src
 
 # Texlive and pandoc
-yay -Syu texlive-core texlive-latexextra texlive-science texlive-pstricks texlive-publishers texlive-fontsextra texstudio pandoc pandoc-citeproc pandoc-crossref
+yay -Syu texlive-core texlive-latexextra texlive-science texlive-pstricks \
+texlive-publishers texlive-fontsextra texstudio pandoc pandoc-citeproc pandoc-crossref
 
 # R
 yay -Syu libopenblas r rstudio-desktop-bin rstudio-server radian
@@ -43,6 +45,7 @@ yay -Syu julia
 yay -Syu jq gcc-fortran tk nlopt gsl v8-3.14
 
 # Other Packages
-yay -Syu spotify audacity blender gimp deluge obs-studio virtualbox teams zoom
+yay -Syu spotify audacity blender gimp deluge-gtk obs-studio virtualbox teams zoom \
+steam
 
-sudo pacman -R firefox-gnome-theme-maia firefox empathy evolution gufw gnome-maps hexchat
+sudo pacman -R firefox konversation kate
