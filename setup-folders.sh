@@ -27,8 +27,10 @@ ln -nfs ~/Insync/edsandorf@gmail.com/Google\ Drive/templates ~/templates
 ln -nfs ~/Insync/edsandorf@gmail.com/Google\ Drive/videos ~/videos
 
 # Put all shared folders from all services inside ~/Public
-ln -nfs ~/Insync/edsandorf@gmail.com/Google\ Drive/public/* ~/shared
+ln -nfs ~/Insync/edsandorf@gmail.com/Google\ Drive/shared/* ~/shared
+ln -nfs ~/Insync/eds4@stir.ac.uk/OneDrive\ Biz/shared/* ~/shared
 ln -nfs ~/Dropbox/public/* ~/shared
+
 
 # Update the default XDG user directories
 xdg-user-dirs-update --set DESKTOP ~/desktop
