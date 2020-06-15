@@ -18,7 +18,7 @@ sudo pacman -Syu --needed base-devel yay
 # Utility packages
 yay -Syu fish neofetch chromium ranger zotero atom insync dropbox \
 conky git-lfs gitg pdftk qpdf tldr ccache jdk jupyter downgrade \
-ranger xclip seahorse polybar alsa-tools
+ranger xclip seahorse polybar alsa-tools latte-dock
 
 # Security and VPN
 yay -Syu firewalld wireguard
