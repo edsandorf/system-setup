@@ -33,7 +33,8 @@ yay -Syu gdal udunits postgis jdk-openjdk openjdk-src
 
 # Texlive and pandoc
 yay -Syu texlive-core texlive-latexextra texlive-science texlive-pstricks \
-texlive-publishers texlive-fontsextra texstudio pandoc pandoc-citeproc pandoc-crossref
+texlive-publishers texlive-fontsextra texlive-pictures texlive-bibtexextra texstudio \
+pandoc pandoc-citeproc pandoc-crossref
 
 # R
 yay -Syu libopenblas r rstudio-desktop-bin rstudio-server radian
